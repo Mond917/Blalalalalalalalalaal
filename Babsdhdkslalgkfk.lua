@@ -16,7 +16,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "AnyKey" --Put The Correct Key Here
+getgenv().Key = "karashiga" --Put The Correct Key Here
 getgenv().KeyInput = "string" --KeyInput Require To Make The Key Work
 
 local Tab = Window:NewTab("KEY SYSTEM") --This Will Make A Tab
@@ -62,7 +62,7 @@ Section:NewButton("Check Key", "This Will Check The Key You Enter", function()
 end)  
 
 Section:NewButton("Copy Link", "ButtonInfo", function()
-          		setclipboard("Link here") --Put The Link Here
+          		setclipboard("example.com") --Put The Link Here
           OrionLib:MakeNotification({
                 Name = "Copied Link!",
                 Content = "Success Copied Link.",
